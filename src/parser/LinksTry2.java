@@ -14,8 +14,8 @@ public class LinksTry2 {
 		Document doc = Jsoup.connect("http://dhruphost.com/mysite/dhmay2016_413/contact.html").get();
 
 		org.jsoup.select.Elements inputElements = doc.getElementsByTag("input");
-		org.jsoup.select.Elements textEle = doc.getElementsByTag("textarea");
-		org.jsoup.select.Elements select = doc.getElementsByTag("select");
+	//	org.jsoup.select.Elements textEle = doc.getElementsByTag("textarea");
+		//org.jsoup.select.Elements select = doc.getElementsByTag("select");
 		for (Element inputEle11 : inputElements) {
 			if(inputEle11.attr("placeholder").length()>0){
 				System.out.println("PLACEHOLDER  :"+inputEle11.attr("placeholder")+ " &&  "+inputEle11.attr("type"));}
