@@ -4,7 +4,10 @@ jdk:
    - openjdk7
    - oraclejdk7
  
-
+build:
+  ci:
+    - java -version
+    - mvn install -DskipTests=true
 notifications:
   email:
       recipients:
