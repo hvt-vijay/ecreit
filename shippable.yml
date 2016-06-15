@@ -6,7 +6,6 @@ jdk:
  
 build:
   ci:
-    - java -version
     - mvn install -DskipTests=true
 notifications:
   email:
