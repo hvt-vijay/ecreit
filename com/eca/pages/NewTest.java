@@ -6,8 +6,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeTest;
 
 public class NewTest {
-  @Test
+  @Test(priority =1)
   public void f() {
+    
   }
   @BeforeMethod
   public void beforeMethod() {
