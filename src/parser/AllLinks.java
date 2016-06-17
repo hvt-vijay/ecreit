@@ -15,6 +15,7 @@ public class AllLinks {
 	        String url = args[0];
 	        print("Fetching %s...", url);*/
 
+		 System.out.println("test link added");
 	        Document doc = Jsoup.connect("http://dhruphost.com/mysite/dhmay2016_413/reporting.html").get();
 	        Elements links = doc.select("a[href]");
 	        Elements media = doc.select("[src]");
