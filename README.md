@@ -91,12 +91,32 @@ syncon.priority.classLevel-2 = packageName.classname,LOW
 ######### Other configurations :
 
 ```
-syncon.issueType :: By deafult all the new bugs will be created as "BUG" as their type on JIRA. To change it to other type its value can be declared in here
+syncon.issueType :: By deafult all the new bugs will be created as "BUG" as their type on JIRA.
+To change it to other type its value can be declared in here for example if its value is set as 
+TASK all the new issues will be uplaoded as TASK on JIRA
 
-syncon.Directory :: By default the necessary files are created in C drive. But it can cause an error if you are not running the project as an administrator. So define the directory as "D:"/ "E:"
+syncon.Directory :: By default the necessary files are created in C drive.
+But it can cause an error if you are not running the project as an administrator.
+So define the directory as "D:"/ "E:"
 ```
 
+####### Configure email report by adding these properties in syncon.properties file
 
+Report sendiong can be activayed by simply adding these properties and there values 
+in the syncon properties file
+
+```
+# Set from emailID (For now "from" can only contain gmail ids only)
+syncon.setReportUserID = abc@gmail.com
+
+# Set password
+syncon.setReportPassword = abc123
+
+# To,Cc & Bcc email ID
+syncon.report.TO= xyz@outlook.com,ab123@gmail.com
+syncon.report.CC= anyone@yahoo.com,anothercc@gmail.com
+syncon.report.BCC=anyoneagain@gmail.com
+```
 
 
 
