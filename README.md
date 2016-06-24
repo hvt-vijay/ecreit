@@ -1,13 +1,19 @@
-<h1>ionic-netbeans-plugin</h1>
-<p>A netbeans plugin for developing awesome hybrid mobile apps using <a href="http://ionicframework.com/" target="_blank"> Ionic Framework </a> which provide the auto-completion feature for Ionic tag elements with proper documentation. </p>
+<h1>SyncOn - Provides Sync between Selenium and JIRA</h1>
 
-This plugin is helpful to integrate Ionic framework in netbeans. It shows details of the ionic tag directives which help to understand the usages of ioninc tags. 
 
-<img src="image/ionplugin.png"></img>
+<p>syncOn provides a complete sync between Selenium and JIRA i.e. every failed test case while running an automation script is uploaded to JIRA as a Bug and assigned to the respective developer. Once done an automated summary report is sent over email to all the configured users. SyncOn also updates the status of a test cases if it has passed now which failed earlier in last run. </p>
 
-This project uses GPL-LICENSE.
 
-<h2>Installing the IonicExtension plugin for Netbeans</h2>
+<p>This project uses GPL-LICENSE.</p>
+
+<h3>Prerequisities </h3>
+<p>Add these mentioned below librarries into your project OR You can simply use the <b>pom.xml</b> included in the project</p>
+<ul>
+<li>Apache POI</li>
+<li>JavaMail API</li>
+<li>TestNG</li>
+<li>Log4j</li>
+</ul>
 
 <ul>
 <li>Download IonicExtension plugin from Netbeans plugins or click here <a href="http://plugins.netbeans.org/plugin/59028/?show=true" target="_blank">IonicExtention Plugin</a>  </li>
