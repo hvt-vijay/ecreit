@@ -88,7 +88,13 @@ syncon.priority.classLevel-1 = packageName.classname,MEDIUM
 syncon.priority.classLevel-2 = packageName.classname,LOW
 ```
 
+######### Other configurations :
 
+```
+syncon.issueType :: By deafult all the new bugs will be created as "BUG" as their type on JIRA. To change it to other type its value can be declared in here
+
+syncon.Directory :: By default the necessary files are created in C drive. But it can cause an error if you are not running the project as an administrator. So define the directory as "D:"/ "E:"
+```
 
 
 
