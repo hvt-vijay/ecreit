@@ -42,10 +42,10 @@ defaultJIRAProject = TestJIRAProject
 #Unique syncon_projectID 
 syncon.ProjectID = SyncOnProject
 
-#Element ID for the passed testcases (Can be retrieved by using )
+#Element ID for the passed testcases (Can be retrieved by using Inspect Element on the done/anystatus button in JIRA)
 syncon.JIRAPassedElementID = action_id_11
 
-#Element ID for the failed testcases
+#Element ID for the failed testcases (Can be retrieved by using Inspect Element on the open/anystatus button in JIRA)
 syncon.JIRAFailedElementID = action_id_15
 
 #URL to the JIRA tool used
@@ -58,6 +58,65 @@ syncon.initiateTool.Username = admin
 syncon.initiateTool.Password = admin
 
 ```
+
+####### Other property keys to configure behaviour of JIRA
+To define an assginee for  any particular class or for any particular testcase use the following syntax :
+
+Note:  Keep updating the key value as 1, 2,3 .... and so on. 
+######### Test level assignee and priority :
+
+```
+syncon.assginee.testLevel-1 = packageName.classname,testcaseName,assigneeName
+
+syncon.assginee.testLevel-2 = packageName.classname,testcaseName2,assigneeName2
+
+syncon.priority.testLevel-1 = packageName.classname,testcaseName,MEDIUM
+
+syncon.priority.testLevel-2 = packageName.classname,testcaseName2,LOW
+```
+
+######### Class level assignee and priority :
+
+```
+syncon.assginee.classLevel-1 = packageName.classname,assigneeName
+
+syncon.assginee.classLevel-2 = packageName.classname,assigneeName2
+
+syncon.priority.classLevel-1 = packageName.classname,MEDIUM
+
+syncon.priority.classLevel-2 = packageName.classname,LOW
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
