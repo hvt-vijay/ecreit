@@ -15,12 +15,9 @@
 <li>Log4j</li>
 </ul>
 
-<ul>
-<li>Download IonicExtension plugin from Netbeans plugins or click here <a href="http://plugins.netbeans.org/plugin/59028/?show=true" target="_blank">IonicExtention Plugin</a>  </li>
-<li>Open Netbeans IDE and click Tools menu </li>
-<li> Choose the plugins option</li>
-<li>Plugins window pop-ups and select the Downloaded tab then click Add Plugin button</li>
-<li>Browse to the downloaded IonicExtention file and then click OK button </li>
-<li>Now click the Install button and simly accept the license and the certificate terms and click Finish</li>
-</ul>
+<h3>Configuring syncOn</h3>
+<p>It involves two simple steps</p>
+
+<h5>Prerequisities </h5>
+
 <p>Congratulation , IonicExtention is added in Netbeans IDE <br> Enjoy!</p>
