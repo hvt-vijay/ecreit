@@ -18,6 +18,9 @@
 <h3>Configuring syncOn</h3>
 <p>It involves two simple steps</p>
 
-<h5>Prerequisities </h5>
+<h5><b>STEP 1:</b> Simply Copy and Paste this listener in your testng.xml file</h5>
+<p style="color:#3F7F7F;"><listeners></p>
+<p><listener class-name="org.syncon.utils.SyncListner"></listener></p>
+<p style="color:#3F7F7F;"></listeners></p>
 
 <p>Congratulation , IonicExtention is added in Netbeans IDE <br> Enjoy!</p>
