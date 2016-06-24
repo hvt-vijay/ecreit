@@ -4,7 +4,7 @@ syncOn provides a complete sync between Selenium and JIRA i.e. every failed test
 
 
 ### Prerequisities
-Add these mentioned below librarries into your project OR You can simply use the <b>pom.xml</b> included in the project
+Add these mentioned below librarries into your project OR You can simply use the [pom.xml] (pom.xml) included in the project
 * Apache POI
 * JavaMail API
 * TestNG
@@ -24,7 +24,8 @@ It involves two steps :
 
 ##### STEP 2: Add syncon.properties file in classpath
 
-Syncon can be completely configured by simply adding syncon.properties file in classpath. Below are the mandatory properties keys which we need to define in this properties file before running a syncon project:
+Syncon can be completely configured by simply adding syncon.properties file in classpath or you can also include the [syncon.properties] (syncon.properties) file mentioned in the project. Below are the mandatory properties keys which we need to define in this properties file before running a syncon project: 
+
 
 ```
 #Use tool JIRA
