@@ -5,10 +5,10 @@ syncOn provides a complete sync between Selenium and JIRA i.e. every failed test
 
 ### Prerequisities
 Add these mentioned below librarries into your project OR You can simply use the <b>pom.xml</b> included in the project
-*Apache POI
-*JavaMail API
-*TestNG
-*Log4j
+* Apache POI
+* JavaMail API
+* TestNG
+* Log4j
 
 
 ### Configuring syncOn
